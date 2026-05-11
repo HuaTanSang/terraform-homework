@@ -8,7 +8,6 @@ variable "region" {
 variable "instance_type" {
   description = "The type of EC2 instance to create"
   type        = string
-  default     = "t2.micro"
 }
 
 variable "ami_id" {
@@ -21,13 +20,11 @@ variable "ami_id" {
 variable "access_key" {
   description = "AWS Access Key for LocalStack"
   type        = string
-  default     = "test"
 }
 
 variable "secret_key" {
   description = "AWS Secret Key for LocalStack"
   type        = string
-  default     = "test"
 }
 
 variable "endpoint_url" {

@@ -28,6 +28,6 @@ resource "aws_instance" "my_local_ec2" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "My-LocalStack-EC2"
+    Name = "My-MiniStack-EC2"
   }
 }
